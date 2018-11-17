@@ -8,7 +8,7 @@ server.get('/', (request, response) => {
 });
 
 server.get('/fotos', (request, response) => {
-    response.send("<h1>Fotos</h1>");
+    response.send("<h1>Fotos</h1> <img src='https://www.petz.com.br/blog/wp-content/uploads/2017/07/gato02.jpg'/>");
 });
 
 server.get('/contatos', (request, response) => {
